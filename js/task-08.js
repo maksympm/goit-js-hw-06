@@ -9,7 +9,7 @@ function handleFormSubmit(event) {
   const pass = formElements.password.value;
 
   if (mail === "" || pass === "") {
-    return alert("Все поля должны быть заполнены.");
+    return alert("Всі поля повинні бути заповнені.");
   }
   const formData = {
     mail,
